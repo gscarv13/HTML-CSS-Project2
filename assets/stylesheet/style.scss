@@ -32,13 +32,14 @@ $grid: grid;
 }
 
 .main {
-  
+
   @extend %flex-columns;
   padding: 0 4px;
   justify-content: center;
 }
 
 .cover {
+
   @extend %flex-columns;
   color: $white;
   margin-top: 65px;
@@ -47,6 +48,7 @@ $grid: grid;
 }
 
 .cover {
+
   @extend %flex-columns;
   color: $white;
   margin-top: 65px;
@@ -55,32 +57,38 @@ $grid: grid;
 }
 
 .latest-news {
+
   @extend %flex-columns;
   padding-bottom: 40px;
 }
 
 .fund-index-links {
+
   @extend %flex-columns;
   justify-content: space-between;
   padding-bottom: 20px;
 }
 
 .latest-funding {
+
   @extend %flex-columns;
   padding-left: 10px;
   padding-bottom: 40px;
 }
 
 .recomended-articles {
+
   @extend %flex-columns;
   padding-bottom: 40px;
 }
 
 .article-link {
+
   @extend %flex-columns;
 }
 
 .social-media-section {
+
   @extend %flex-columns;
   align-items: center;
   background-color: #131313;
@@ -88,11 +96,13 @@ $grid: grid;
 }
 
 .last-deals {
+
   @extend %flex-columns;
   padding-bottom: 40px;
 }
 
 .news-article {
+
   @extend %flex-columns;
   height: auto;
   padding: 2px;
@@ -161,6 +171,7 @@ $grid: grid;
 }
 
 .nav-bar {
+
   @extend %flex-rows-space-between;
   box-shadow: 0 1px 10px $light-gray;
   background-color: $white;
@@ -170,6 +181,7 @@ $grid: grid;
 }
 
 .double-menu .nav-bar-black {
+
   @extend %flex-rows-space-between;
   top: 0;
   width: 100%;
@@ -178,6 +190,7 @@ $grid: grid;
 }
 
 .black-bar-left {
+
   @extend %flex-rows-space-around;
   padding-left: 10px;
 }
@@ -187,6 +200,7 @@ $grid: grid;
 }
 
 .black-bar-right {
+
   @extend %flex-rows-space-around;
   padding-right: 10px;
 }
@@ -196,6 +210,7 @@ $grid: grid;
 }
 
 .white-bar-links {
+
   @extend %flex-rows-space-around;
   padding-top: 10px;
 }
@@ -205,6 +220,7 @@ $grid: grid;
 }
 
 .nav-bar-white {
+
   @extend %flex-rows-space-between;
   padding-left: 10px;
   position: sticky;
@@ -394,6 +410,7 @@ $grid: grid;
 }
 
 .deals-title {
+
   @extend %flex-rows-space-between;
   align-items: baseline;
 }
@@ -496,6 +513,7 @@ $grid: grid;
 }
 
 .double-menu {
+  
   @extend %flex-columns;
   width: 100%;
   a {
