@@ -12,7 +12,9 @@ $light-gray: #ccc;
 $lightest-gray: #eee;
 $semi-white: #fff4f2;
 
-$arial-fonts: arial, helvetica, sans-serif;
+$arial-fonts: arial,
+helvetica,
+sans-serif;
 
 $grid: grid;
 
@@ -528,12 +530,14 @@ $grid: grid;
   @extend %flex-columns;
 
   width: 100%;
+
   a {
     font-family: sans-serif;
     font-size: 14px;
     text-decoration: none;
     color: $mid-gray;
   }
+
   .nav-icons {
     a {
       text-decoration: none;
@@ -565,6 +569,7 @@ $grid: grid;
 }
 
 @media only screen and (max-width: 768px) {
+
   .double-menu .nav-bar-black,
   .gradient-red,
   .banner-01 a img,
@@ -633,7 +638,7 @@ $grid: grid;
   }
 
   $news-grid-items: 9;
-  
+
   @for $i from 1 through $news-grid-items {
     .n#{$i} {
       grid-area: n#{$i};
@@ -648,7 +653,7 @@ $grid: grid;
   .news-text {
     padding: 5px 0;
     line-height: 0.7;
-    
+
     p {
       margin-top: 5px;
       padding: 10px 0;
@@ -736,11 +741,11 @@ $grid: grid;
   .deals-img {
     width: 100%;
     min-height: 135px;
-    
+
     a {
       display: block;
       width: 100%;
-      
+
       img {
         display: block;
         width: 100%;
@@ -858,7 +863,7 @@ $grid: grid;
   .news-text {
     padding: 5px 0;
     line-height: 0.7;
-    
+
     p {
       margin-top: 5px;
       padding: 10px 0;
@@ -944,7 +949,7 @@ $grid: grid;
   .deals-text {
     padding: 5px 0;
     line-height: 0.7;
-    
+
     p {
       padding: 2px 0;
       margin: 5px 0 0 0;
@@ -956,7 +961,7 @@ $grid: grid;
     justify-content: center;
     padding: 32px 0;
     background-color: $black;
-    
+
     p {
       display: block;
       color: $mid-gray;
