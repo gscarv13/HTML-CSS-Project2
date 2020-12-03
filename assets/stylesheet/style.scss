@@ -411,7 +411,7 @@ $grid: grid;
 
 .deals-title {
   @extend %flex-rows-space-between;
-  
+
   align-items: baseline;
 }
 
@@ -512,6 +512,18 @@ $grid: grid;
   height: 9px;
 }
 
+.cover-text p,
+.cover-text p a {
+  margin-top: 10px;
+  font-size: 12px;
+  color: $mid-gray;
+}
+
+.news-text p a,
+.news-text p {
+  color: $light-gray;
+}
+
 .double-menu {
   @extend %flex-columns;
 
@@ -530,18 +542,6 @@ $grid: grid;
       border-left: $lightest-gray solid 1px;
     }
   }
-}
-
-.cover-text p,
-.cover-text p a {
-  margin-top: 10px;
-  font-size: 12px;
-  color: $mid-gray;
-}
-
-.news-text p a,
-.news-text p {
-  color: $light-gray;
 }
 
 .deals-text a:hover {
@@ -633,6 +633,7 @@ $grid: grid;
   }
 
   $news-grid-items: 9;
+  
   @for $i from 1 through $news-grid-items {
     .n#{$i} {
       grid-area: n#{$i};
@@ -647,6 +648,7 @@ $grid: grid;
   .news-text {
     padding: 5px 0;
     line-height: 0.7;
+    
     p {
       margin-top: 5px;
       padding: 10px 0;
@@ -734,9 +736,11 @@ $grid: grid;
   .deals-img {
     width: 100%;
     min-height: 135px;
+    
     a {
       display: block;
       width: 100%;
+      
       img {
         display: block;
         width: 100%;
@@ -854,6 +858,7 @@ $grid: grid;
   .news-text {
     padding: 5px 0;
     line-height: 0.7;
+    
     p {
       margin-top: 5px;
       padding: 10px 0;
@@ -939,6 +944,7 @@ $grid: grid;
   .deals-text {
     padding: 5px 0;
     line-height: 0.7;
+    
     p {
       padding: 2px 0;
       margin: 5px 0 0 0;
@@ -950,6 +956,7 @@ $grid: grid;
     justify-content: center;
     padding: 32px 0;
     background-color: $black;
+    
     p {
       display: block;
       color: $mid-gray;
