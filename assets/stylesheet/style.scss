@@ -514,6 +514,19 @@ $grid: grid;
   height: 9px;
 }
 
+.double-menu {
+  @extend %flex-columns;
+
+  width: 100%;
+
+  a {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: $mid-gray;
+  }
+}
+
 .cover-text p,
 .cover-text p a {
   margin-top: 10px;
@@ -526,25 +539,12 @@ $grid: grid;
   color: $light-gray;
 }
 
-.double-menu {
-  @extend %flex-columns;
-
-  width: 100%;
-
+.double-menu .nav-icons {
   a {
-    font-family: sans-serif;
-    font-size: 14px;
     text-decoration: none;
-    color: $mid-gray;
-  }
-
-  .nav-icons {
-    a {
-      text-decoration: none;
-      color: $orange-main;
-      padding: 17px 16px;
-      border-left: $lightest-gray solid 1px;
-    }
+    color: $orange-main;
+    padding: 17px 16px;
+    border-left: $lightest-gray solid 1px;
   }
 }
 
