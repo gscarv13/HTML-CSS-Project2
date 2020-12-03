@@ -49,12 +49,6 @@
   text-decoration: none;
   color: #aaa;
 }
-.double-menu .nav-icons a {
-  text-decoration: none;
-  color: #f42;
-  padding: 17px 16px;
-  border-left: #eee solid 1px;
-}
 
 .cover {
   color: #fff;
@@ -467,7 +461,6 @@
   padding: 10px;
 }
 
-
 .disclaimer {
   display: flex;
   justify-content: center;
@@ -506,6 +499,13 @@
   color: #ccc;
 }
 
+.double-menu .nav-icons a {
+  text-decoration: none;
+  color: #f42;
+  padding: 17px 16px;
+  border-left: #eee solid 1px;
+}
+
 .deals-text a:hover {
   color: #f42;
 }
@@ -525,7 +525,6 @@
 .i:hover {
   background-color: #000;
 }
-
 
 @media only screen and (max-width: 768px) {
   .double-menu .nav-bar-black,
