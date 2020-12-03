@@ -12,7 +12,7 @@ $light-gray: #ccc;
 $lightest-gray: #eee;
 $semi-white: #fff4f2;
 
-$arial-fonts: Arial, Helvetica, sans-serif;
+$arial-fonts: arial, helvetica, sans-serif;
 
 $grid: grid;
 
@@ -496,6 +496,25 @@ $grid: grid;
   height: 9px;
 }
 
+.double-menu {
+  @extend %flex-columns;
+  width: 100%;
+  a {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: $mid-gray;
+  }
+  .nav-icons {
+    a {
+      text-decoration: none;
+      color: $orange-main;
+      padding: 17px 16px;
+      border-left: $lightest-gray solid 1px;
+    }
+  }
+}
+
 .cover-text p,
 .cover-text p a {
   margin-top: 10px;
@@ -526,25 +545,6 @@ $grid: grid;
 
 .i:hover {
   background-color: $black;
-}
-
-.double-menu {
-  @extend %flex-columns;
-  width: 100%;
-  a {
-    font-family: sans-serif;
-    font-size: 14px;
-    text-decoration: none;
-    color: $mid-gray;
-  }
-  .nav-icons {
-    a {
-      text-decoration: none;
-      color: $orange-main;
-      padding: 17px 16px;
-      border-left: $lightest-gray solid 1px;
-    }
-  }
 }
 
 @media only screen and (max-width: 768px) {
