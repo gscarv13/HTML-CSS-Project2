@@ -32,12 +32,11 @@ $grid: grid;
 }
 
 .main {
+  
   @extend %flex-columns;
   padding: 0 4px;
   justify-content: center;
 }
-
-/********NESTING*******/
 
 .cover {
   @extend %flex-columns;
