@@ -180,22 +180,6 @@ $grid: grid;
   font-size: 12px;
 }
 
-.deals-text a:hover {
-  color: $orange-main;
-}
-
-.all-deals a:hover {
-  color: $black;
-}
-
-.news-text a:hover {
-  color: $orange-main;
-}
-
-.title a:hover {
-  color: $black;
-}
-
 .nav-bar {
   @extend %flex-rows-space-between;
   box-shadow: 0 1px 10px $light-gray;
@@ -505,9 +489,6 @@ $grid: grid;
   padding: 10px;
 }
 
-.i:hover {
-  background-color: $black;
-}
 
 .disclaimer {
   display: flex;
@@ -545,6 +526,26 @@ $grid: grid;
 .news-text p a,
 .news-text p {
   color: $light-gray;
+}
+
+.deals-text a:hover {
+  color: $orange-main;
+}
+
+.all-deals a:hover {
+  color: $black;
+}
+
+.news-text a:hover {
+  color: $orange-main;
+}
+
+.title a:hover {
+  color: $black;
+}
+
+.i:hover {
+  background-color: $black;
 }
 
 @media only screen and (max-width: 768px) {

@@ -165,22 +165,6 @@
   font-size: 12px;
 }
 
-.deals-text a:hover {
-  color: #f42;
-}
-
-.all-deals a:hover {
-  color: #000;
-}
-
-.news-text a:hover {
-  color: #f42;
-}
-
-.title a:hover {
-  color: #000;
-}
-
 .nav-bar {
   box-shadow: 0 1px 10px #ccc;
   background-color: #fff;
@@ -483,9 +467,6 @@
   padding: 10px;
 }
 
-.i:hover {
-  background-color: #000;
-}
 
 .disclaimer {
   display: flex;
@@ -524,6 +505,27 @@
 .news-text p {
   color: #ccc;
 }
+
+.deals-text a:hover {
+  color: #f42;
+}
+
+.all-deals a:hover {
+  color: #000;
+}
+
+.news-text a:hover {
+  color: #f42;
+}
+
+.title a:hover {
+  color: #000;
+}
+
+.i:hover {
+  background-color: #000;
+}
+
 
 @media only screen and (max-width: 768px) {
   .double-menu .nav-bar-black,
